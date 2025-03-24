@@ -44,14 +44,6 @@ useEffect(() =>{
   fetchStocks();
 },[])
 
-  const options = {
-    headers: {
-      'Content-Type': 'application/json',
-       'x-access-token': 'coinrankingda5b737ac77d59fe78cb72f37912d1a599d54c4338ae2a9a',
-    },
-  };
-
-
   
 
   useEffect(() =>{
