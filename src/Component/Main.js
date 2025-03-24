@@ -58,7 +58,7 @@ useEffect(() =>{
     setLoading(true);
     const fetchData = async () => {
       try {
-        const response = await fetch(BASE_URL, options);
+        const response = await fetch(BASE_URL);
         const data = await response.json();
         setCryptocurrencies(data.data.coins);  
         setFilteredCryptos(data.data.coins);
